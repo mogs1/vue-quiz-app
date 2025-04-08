@@ -1,29 +1,27 @@
-# vue-quiz-app
+# Quiz App
 
-This template should help get you started developing with Vue 3 in Vite.
+An interactive, gamified quiz application that enhances user engagement with Tap-to-Reveal and Swipe UI features.
 
-## Recommended IDE Setup
+## Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### Tap-to-Reveal UI
+- Users are presented with a set of cards.
+- **First State**: Cards are face-down.
+- **Interaction**: Tapping a card flips it to reveal the answer on the other side.
+- **Second State**: The revealed card displays the correct answer.
 
-## Customize configuration
+### 👈👉 Swipe UI
+- Users are shown a question with two possible answers/options.
+- They **swipe left or right** to indicate their answer.
+- **Correct swipe**: The card moves into the appropriate column.
+- **Incorrect swipe**: The user is prompted to try again until they get it right.
+- After all questions are completed, a result screen is shown.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
 
-## Project Setup
+##  Installation
 
-```sh
+```bash
+git clone https://github.com/mogs1/vue-quiz-app.git
+cd vue-quiz-app
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+npm start

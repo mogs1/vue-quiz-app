@@ -8,7 +8,7 @@
       :updateScore="updateScore"
     />
   </div>
-</template>
+</template> 
 
 <script setup>
 import { ref, computed } from 'vue';
